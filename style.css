@@ -122,10 +122,10 @@ nav {
 
 .sub {
     font-size: 1rem;
-    opacity: 0.9;
+   
 }
 .login-link {
-  all: unset;
+
   color: white;
   cursor: pointer;
 }
