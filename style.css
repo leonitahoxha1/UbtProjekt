@@ -41,3 +41,17 @@ nav {
     display: flex;
     gap: 40px;
 }
+
+
+.menu-left, .menu-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-left li, .menu-right li {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
