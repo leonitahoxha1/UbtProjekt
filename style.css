@@ -125,7 +125,7 @@ nav {
    
 }
 .login-link {
-
+  all: unset;
   color: white;
   cursor: pointer;
 }
