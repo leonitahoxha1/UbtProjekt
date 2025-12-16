@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.logo span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
