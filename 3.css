@@ -1,4 +1,4 @@
-    body {
+body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: linear-gradient(to right, #6a11cb, #2575fc);
@@ -17,7 +17,6 @@
       margin: 20px;
     }
 
-  
     h2 {
       text-align: center;
       color: #333;
@@ -64,4 +63,3 @@
     a:hover {
       text-decoration: underline;
     }
-  
