@@ -7,6 +7,11 @@ body {
       align-items: flex-start;
       padding-top: 50px;
     background-image: url(bgb1.jpg); 
+    background-size: cover;
+        background-position: center;
+     
+        background-repeat: no-repeat;
+       
     }
 
     .container {
