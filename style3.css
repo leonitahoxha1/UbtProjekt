@@ -32,7 +32,7 @@ body {
     );
 }
 
-/* CONTENT */
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -53,3 +53,5 @@ body {
     opacity: 0.9;
     margin-bottom: 30px;
 }
+
+
