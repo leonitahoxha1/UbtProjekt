@@ -91,4 +91,14 @@
 
     .show-cards-container::-webkit-scrollbar {
         height: 8px;
+    } .navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(3, 37, 129, 0.8);
+        z-index: 999;
     }
