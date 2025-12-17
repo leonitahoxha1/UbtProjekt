@@ -55,3 +55,35 @@ body {
 }
 
 
+.email-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.email-form input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.email-form button {
+    padding: 14px 25px;
+    background-color: #0064ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email-form button:hover {
+    background-color: #004ecc;
+}
+
+.hero-content small {
+    font-size: 11px;
+    opacity: 0.7;
+}
