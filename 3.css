@@ -44,4 +44,24 @@
       background: #6a11cb;
     }
 
- 
+    #message {
+      color: red;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      color: #555;
+    }
+
+    a {
+      color: #2575fc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  
