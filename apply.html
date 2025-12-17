@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h2>Kontakt</h2>
+    <form id="contactForm">
+      <input type="text" id="contactName" placeholder="Emri" />
+      <input type="email" id="contactEmail" placeholder="Email" />
+      <textarea id="contactMessage" placeholder="Mesazhi"></textarea>
+      <button type="submit">Dërgo</button>
+    </form>
+    <p id="contactMsg"></p>
+  </div>
+
+  
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="loginUsername" placeholder="Username" />
+      <input type="password" id="loginPassword" placeholder="Password" />
+      <button type="submit">Login</button>
+    </form>
+    <p id="loginMsg"></p>
+    <p>Nuk ke llogari? <a href="#" id="showRegister">Regjistrohu</a></p>
+
+    <form id="registerForm" style="display:none;">
+      <h2>Register</h2>
+      <input type="text" id="registerUsername" placeholder="Username" />
+      <input type="email" id="registerEmail" placeholder="Email" />
+      <input type="password" id="registerPassword" placeholder="Password" />
+      <button type="submit">Regjistrohu</button>
+    </form>
+    <p id="registerMsg"></p>
+  </div>
+
+
+
+<script>
