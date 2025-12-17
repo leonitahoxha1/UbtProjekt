@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+     backdrop-filter: blur(10px);
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(bgb1.jpg); 
+ backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
