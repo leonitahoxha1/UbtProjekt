@@ -43,10 +43,10 @@
   </div>
 
 
-  <script>
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
+ <script>
+/* =========================
+   CONTACT FORM
+========================= */
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
@@ -64,4 +64,28 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   }
 });
 
-</body></html>
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  let username = document.getElementById("loginUsername").value;
+  let password = document.getElementById("loginPassword").value;
+  let msg = document.getElementById("loginMsg");
+
+  if (username === "" || password === "") {
+    msg.textContent = "Plotësoni username dhe password!";
+    msg.style.color = "red";
+  } else if (password.length < 6) {
+    msg.textContent = "Password duhet të ketë minimum 6 karaktere!";
+    msg.style.color = "red";
+  } else {
+    msg.textContent = "Login i suksesshëm!";
+    msg.style.color = "green";
+  }
+});
+
+
+
+
+</script>
+
+
