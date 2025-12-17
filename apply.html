@@ -42,5 +42,26 @@
     <p id="registerMsg"></p>
   </div>
 
-  
+
+  <script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  let name = document.getElementById("contactName").value;
+  let email = document.getElementById("contactEmail").value;
+  let message = document.getElementById("contactMessage").value;
+  let msg = document.getElementById("contactMsg");
+
+  if (name === "" || email === "" || message === "") {
+    msg.textContent = "Ju lutem plotësoni të gjitha fushat!";
+    msg.style.color = "red";
+  } else {
+    msg.textContent = "Mesazhi u dërgua me sukses!";
+    msg.style.color = "green";
+  }
+});
+
 </body></html>
