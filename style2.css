@@ -258,3 +258,102 @@
     .right-arrow {
         right: 8px;
     }
+
+    .clips {
+        max-width: 1200px;
+        margin: 60px auto;
+    }
+
+    .clips h2 {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+
+    .clips-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .clip-card {
+        cursor: pointer;
+    }
+
+    .thumb {
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px;
+    }
+
+    .thumb img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .play {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        background: rgba(0,0,0,0.4);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .thumb:hover .play {
+        opacity: 1;
+    }
+
+    .time {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.85rem;
+        color: #bbb;
+    }
+
+    .clip-card p {
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+
+    .site-footer {
+        background: #0b0b0b;
+        color: #ccc;
+        padding: 60px 40px 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .footer-container {
+        display: grid;
+        gap: 40px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footer-col h4 {
+        color: #fff;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .footer-col ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-col ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer-col ul li a {
+        color: #aaa;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .footer-col ul li a:hover {
+        color: #fff;
+    }
