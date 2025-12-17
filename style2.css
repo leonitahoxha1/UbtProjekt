@@ -1,0 +1,40 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+
+    .menu-left li a {
+        color: white; 
+        text-decoration: none;
+    }
+
+   
+    body {
+    
+        background-color: #121212; 
+        background-image: url(biglogo.png);
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(10px);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        padding-top: 120px;
+    }
+
+   
+    .content-container {
+        max-width: 1400px; 
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 1.5em; 
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
